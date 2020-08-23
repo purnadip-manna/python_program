@@ -1,12 +1,10 @@
-# Updating python code with html for WIX
-
 fileLines = ""
 fn = input("Enter python file name to read: ")
 fd = input("Enter file to write: ")
 space = ""
 
-filename = r"C:\Users\Purnadip\Desktop\\" + fn
-filedump = r"C:\Users\Purnadip\Desktop\\" + fd
+filename = r"file_location" + fn
+filedump = r"file_location" + fd
 
 pyfile = open(filename, 'r')
 s = pyfile.read()
